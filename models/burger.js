@@ -1,6 +1,6 @@
 var orm = require("../config/orm.js");
 
-// Create a hburger object
+// Create a burger object
 var burger = {
     // Select all burger entries
     selectAll: function(cb) {
