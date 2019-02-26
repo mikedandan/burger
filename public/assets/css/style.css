@@ -95,10 +95,6 @@ ul {
      
     }
 
-    .myFooter {
-
-    }
-
     .myTinyImage {
         margin-left: 5px;
         margin-right: 5px;
@@ -117,10 +113,10 @@ ul {
         font-size: 1.1em;
     }
 
-    /* media queries for responsive text in footer*/
+    /* media queries for responsive text in footer
 
     /*phone only*/
-    @media only screen and (max-width: 599px) {
+    /* @media only screen and (max-width: 599px) {
         #mySignature {
             font-size: .5em;
             margin-bottom: 0px;
@@ -146,10 +142,10 @@ ul {
             display: inline;
         }
 
-    }
+    } */
 
     /*tablets, desktop*/
-    @media only screen and (min-width: 1024px) {
+    /* @media only screen and (min-width: 1024px) {
         
 
         #mySignature {
@@ -160,7 +156,7 @@ ul {
             min-height: 20px !important;
             /*position: relative;
             top: 10px;*/
-        }
+        /* }
         .myTinyImage {
             margin-left: 5px;
             margin-right: 5px;
@@ -176,4 +172,4 @@ ul {
             min-height: 730px;
         }
 
-    }
+    } */

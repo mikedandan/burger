@@ -31,13 +31,13 @@ var orm = {
         var queryString = "SELECT * FROM " + tableInput + ";";
 
         // Perform the database query that we built into queryString and return the results in...result!
-        connection.query(queryString, function (err, result) {
+        connection.query(queryString, function (err, res) {
             if (err) {
                 throw err;
             }
 
             // The callback function returns the result
-            cb(result);
+            cb(res);
         });
     },
 
@@ -53,13 +53,13 @@ var orm = {
         queryString += printQuestionMarks(vals.length);
         queryString += ") ";
 
-        connection.query(queryString, vals, function (err, result) {
+        connection.query(queryString, vals, function (err, res) {
             if (err) {
                 throw err;
             }
 
             // The callback function returns the result
-            cb(result);
+            cb(res);
         });
     },
 
@@ -73,13 +73,13 @@ var orm = {
         queryString += " WHERE ";
         queryString += condition;
 
-        connection.query(queryString, function (err, result) {
+        connection.query(queryString, function (err, res) {
             if (err) {
                 throw err;
             }
 
             // The callback function returns the result
-            cb(result);
+            cb(res);
         });
     }
 };
