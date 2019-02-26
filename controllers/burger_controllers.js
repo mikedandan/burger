@@ -10,10 +10,10 @@ var router = express.Router();
 router.get('/', function(req, res) {
 
     burger.selectAll(function(data) {
-      var burgerOb = {
+      var hbsObject = {
         burgers: data
       };
-      res.render('index', burgerOb);
+      res.render('index', hbsObject);
     });
   });
   

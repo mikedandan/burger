@@ -11,27 +11,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="/public/assets/css/style.css">
+
+    <link rel="stylesheet" href="/public/assets/css/style.css" type="text/css" />
 
 </head>
+<nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="./"
+                class="brand-logo orange-text text-lighten-3">Burger Crave</a>
 
-<body>
-{{{ body }}}
-  
-<footer class="container page-footer grey lighten-3 teal-text z-depth-1 myFooter">
-    <div class="nav-wrapper">
-          <div class="footer-copyright grey lighten-3 teal-text myCopyright">
-         
-            <span id="mySignature"> © 2018  Mike Dandan</span>
-            
-            
-          </div>
-    </div>
-  </footer>
+            <ul id="nav-mobile" class="side-nav" style="left: -250px;">
+                <li><a href="./"></a></li>
+            </ul>
+
+        </div>
+    </nav>
+{{!-- <body> --}}
+    {{{ body }}}
     
-  <!-- jQuery imports -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <footer class="page-footer orange">
+        <div class="footer-copyright">
+            <div class="container">
+                <!--Links to GitHub-->
+                <a class="orange-text text-lighten-4" href="https://github.com/mikedandan/burger">GitHub
+                    Repository</a>
+                <ul class="right">
+                    <li>Made by <a class="blue-text text-lighten-4">Mike Dandan</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    {{!-- <footer class="container page-footer grey lighten-3 teal-text z-depth-1 myFooter">
+        <div class="nav-wrapper">
+            <div class="footer-copyright grey lighten-3 teal-text myCopyright">
 
-  </body>
+                <span id="mySignature"> © 2018 Mike Dandan</span>
+
+
+            </div>
+        </div>
+    </footer> --}}
+
+    <!-- jQuery imports -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
 
 </html>
